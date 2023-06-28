@@ -1,10 +1,11 @@
 import './App.css';
-import { NewHomes} from './ui-components'
-
+import { NewHomes, ItemCard} from './ui-components'
+   
 function App() {
 return (
 <div className="App">
 <NewHomes />
+<ItemCard />
 </div>
 );
 }
